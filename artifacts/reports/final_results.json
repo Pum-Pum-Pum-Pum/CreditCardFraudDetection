@@ -1,0 +1,18 @@
+{
+  "project_name": "credit_card_fraud_detection",
+  "final_model": {
+    "name": "xgboost",
+    "artifact_path": "artifacts/model/xgboost_fraud_pipeline.joblib",
+    "threshold": 0.17,
+    "fp_cost": 1,
+    "fn_cost": 5
+  },
+  "final_test_metrics": {
+    "precision": 0.861538,
+    "recall": 0.788732,
+    "f1": 0.823529,
+    "pr_auc": 0.807573,
+    "total_cost": 84
+  },
+  "selected_reason": "XGBoost achieved the best validation PR-AUC among advanced candidates and lower cost than Random Forest under FN:FP = 5:1."
+}

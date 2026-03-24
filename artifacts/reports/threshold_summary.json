@@ -1,0 +1,23 @@
+{
+  "business_cost_assumption": {
+    "fp_cost": 1,
+    "fn_cost": 5,
+    "interpretation": "Missing a fraud is assumed to cost 5x more than falsely flagging a legitimate transaction."
+  },
+  "random_forest": {
+    "selected_threshold": 0.29,
+    "validation_total_cost": 85,
+    "test_total_cost": 92,
+    "test_precision": 0.820896,
+    "test_recall": 0.774648,
+    "test_f1": 0.797101
+  },
+  "xgboost": {
+    "selected_threshold": 0.17,
+    "validation_total_cost": 78,
+    "test_total_cost": 84,
+    "test_precision": 0.861538,
+    "test_recall": 0.788732,
+    "test_f1": 0.823529
+  }
+}

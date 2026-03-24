@@ -1,0 +1,19 @@
+{
+  "reference_dataset": "artifacts/splits/train.csv",
+  "current_dataset": "artifacts/model/sample_inference_input.csv",
+  "top_shifted_features": [
+    {
+      "feature": "V14",
+      "mean_shift_ratio": 0.071018
+    },
+    {
+      "feature": "Time",
+      "mean_shift_ratio": -0.058700
+    },
+    {
+      "feature": "V13",
+      "mean_shift_ratio": -0.049900
+    }
+  ],
+  "conclusion": "No strong evidence of major feature drift under the current mean-shift monitoring rule."
+}

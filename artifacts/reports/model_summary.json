@@ -1,0 +1,23 @@
+{
+  "baseline_models": {
+    "logistic_regression": {
+      "validation_pr_auc": 0.69918,
+      "validation_roc_auc": 0.971863
+    },
+    "random_forest": {
+      "validation_pr_auc": 0.831125,
+      "validation_roc_auc": 0.982996
+    }
+  },
+  "advanced_models": {
+    "adaboost": {
+      "validation_pr_auc": 0.761435,
+      "validation_roc_auc": 0.980862
+    },
+    "xgboost": {
+      "validation_pr_auc": 0.837385,
+      "validation_roc_auc": 0.977856
+    }
+  },
+  "selected_model": "xgboost"
+}

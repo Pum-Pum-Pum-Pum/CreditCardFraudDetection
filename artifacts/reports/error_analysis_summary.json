@@ -1,0 +1,12 @@
+{
+  "final_model": "xgboost",
+  "test_threshold": 0.17,
+  "error_counts": {
+    "false_positives": 12,
+    "false_negatives": 15
+  },
+  "summary": {
+    "false_positives_note": "False positives tend to receive high fraud scores, suggesting the model is making confident but structured mistakes on fraud-like legitimate transactions.",
+    "false_negatives_note": "False negatives tend to have low fraud scores, suggesting these frauds resemble legitimate traffic and are harder for the model to separate."
+  }
+}
